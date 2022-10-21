@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int n,x,low,high,mid;
-    int ind=0;
+    int ind=-1;
     cout<<"enter number of elements in the array"<<endl;
     cin>>n;
     int arr[n];
@@ -38,7 +38,7 @@ int main()
     }
 
     //if index not get updated in while loop, then it means element not found
-    if(ind==0)
+    if(ind==-1)
         cout<<"element not found"<<endl;
     else
         cout<<"the element is at index"<<" "<<ind<<endl;
