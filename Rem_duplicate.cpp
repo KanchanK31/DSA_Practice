@@ -11,7 +11,7 @@ int function1(int arr[],int n)
         //checking if the next element is same as previous,
         //j=0=index for new array which do not contains duplicates,
         //ex-[1,1,2,3,4,4]
-        //arr[1]!=arr[2]=new array[1]
+        //arr[1]!=arr[2]=add that element to new array=[1]
         //arr[2]!=arr[3]=[1,2]
         //arr[3]!=arr[4]=[1,2,3]
         //here last element is not included in new arr.
